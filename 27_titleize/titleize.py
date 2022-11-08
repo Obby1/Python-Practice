@@ -7,10 +7,6 @@ def titleize(phrase):
         >>> titleize('oNLy cAPITALIZe fIRSt')
         'Only Capitalize First'
     """
-    # swapped = ''
-    # for letter in phrase:
-    #     swapped += letter.swapcase()
-    # return swapped
 
     return phrase.title()
 
